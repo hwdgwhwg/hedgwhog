@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="JavaScript/caracter.js" defer></script>
+    <script src="JavaScript/controls.js" defer></script>
+</head>
+<body>
+        <div class="container">
+          <div class="banner">Choose your character</div>
+          
+          <div class="grid-area">
+            <div class="charbox-player" id="player1" style="grid-column: 1; grid-row: 1 / span 2;">
+              <img src="images/empty.png" alt="Empty" class="char-img">
+            </div>
+            
+            <div class="charbox-player" id="player2" style="grid-column: 2; grid-row: 1 / span 2;">
+              <img src="images/empty.png" alt="Empty" class="char-img">
+            </div>
+            
+            <div class="charbox-player" id="player3" style="grid-column: 1; grid-row: 3 / span 2;">
+              <img src="images/empty.png" alt="Empty" class="char-img">
+            </div>
+            
+
+    
+            <div class="charboxQ" onclick="window.location = '3Player/3player.html'" style="grid-column: 2; grid-row: 3;">Start</div>
+            <div class="charboxQ" onclick="window.location = 'index.html'" style="grid-column: 2; grid-row: 4;">Back</div>
+          
+            
+            <div class="charbox" data-character="CharacterA" data-img="images/charA.jpg" style="grid-column: 3; grid-row: 1;">
+              <img src="images/charA.jpg" alt="Character A" class="char-img">
+            </div>
+            <div class="charbox" data-character="CharacterB" data-img="images/charB.jpg" style="grid-column: 4; grid-row: 1;">
+              <img src="images/charB.jpg" alt="Character B" class="char-img">
+            </div>
+            <div class="charbox" data-character="CharacterC" data-img="images/charC.png" style="grid-column: 5; grid-row: 1;">
+              <img src="images/charC.png" alt="Character C" class="char-img">
+            </div>
+            
+            <div class="charbox" style="grid-column: 6; grid-row: 1;">Character C</div>
+            <div class="charbox" style="grid-column: 3; grid-row: 2;">Character D</div>
+            <div class="charbox" style="grid-column: 4; grid-row: 2;">Character E</div>
+            <div class="charbox" style="grid-column: 5; grid-row: 2;">Character F</div>
+            <div class="charbox" style="grid-column: 6; grid-row: 2;">Character C</div>
+
+            <div class="charbox" style="grid-column: 3; grid-row: 3;">Character A</div>
+            <div class="charbox" style="grid-column: 4; grid-row: 3;">Character B</div>
+            <div class="charbox" style="grid-column: 5; grid-row: 3;">Character C</div>
+            <div class="charbox" style="grid-column: 6; grid-row: 3;">Character C</div>
+            <div class="charbox" style="grid-column: 3; grid-row: 4;">Character D</div>
+            <div class="charbox" style="grid-column: 4; grid-row: 4;">Character E</div>
+            <div class="charbox" style="grid-column: 5; grid-row: 4;">Character F</div>
+            <div class="charbox" style="grid-column: 6; grid-row: 4;">Character C</div>
+          </div>
+          
+          
+        </div>
+    <script src="JavaScript/index.js"></script>
+</body>
+</html>

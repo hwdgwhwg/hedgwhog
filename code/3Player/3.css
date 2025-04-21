@@ -1,0 +1,113 @@
+body {
+    background-color: #d3d3d3;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    top: 0;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100vh;
+    color: white;
+    padding-left: 2%;
+}
+
+.player {
+    grid-column: span 1;
+    background-color: #a9a9a9;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+    border-color: black;
+    border-width: 9px;
+    border-style: solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.character {
+    background-color: #888;
+    width: 10vh;
+    height: 10vh;
+    margin: 10px auto;
+    z-index: 1;
+}
+
+.presszone {
+    background-color: grey;
+    height: 60px;
+    margin: 8px auto;
+    width: 100%;
+    z-index: 1;
+}
+
+.main-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.side-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d3d3d3;
+    height: 100%;
+    width: 20%;
+}
+
+.attack-mana {
+    background-color: red;
+    height: 140px;
+    width: 75%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.defense-mana {
+    background-color: blue;
+    height: 140px;
+    width: 75%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.health {
+    background-color: rgb(41, 157, 41);
+    height: 75px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.unknown-top,
+.unknown-bottom {
+    background-color: #888;
+    color: white;
+    width: 75%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
